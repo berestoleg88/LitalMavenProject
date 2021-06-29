@@ -32,4 +32,13 @@ public class AppTest
         assertEquals(app1.testSum(-1, 2), 1);
         assertEquals(app1.testSum(9, 2), 11);
     }
+
+    @Test
+    public void shouldReturnSum2()
+    {
+        App app1 = new App();
+        assertEquals(app1.testSum(2, 2), 5);
+        assertEquals(app1.testSum(-1, 2), 2);
+        assertEquals(app1.testSum(12, 2), 11);
+    }
 }
